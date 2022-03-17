@@ -45,9 +45,11 @@ function dragLeave(){
     
 }
 
+
 function dragDrop(){
     this.className = 'empty';
-    if (!this.hasChildNodes()) {
+    let isEmpty = this.children.length == 0;
+    if (isEmpty) {
         this.append(filling);
     }
 }
