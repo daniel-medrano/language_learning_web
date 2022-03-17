@@ -8,4 +8,3 @@ José Daniel Medrano Guadamuz
 Andrey Vargas  
 Génesis Delgado  
 
-Esto es la prueba 1.
