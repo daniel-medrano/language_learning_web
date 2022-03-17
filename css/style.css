@@ -1,18 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #042940;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}
-
-header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    gap: 30px; 
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
 
 }
 
-.logo{
-    width: 100px;
+.logo img {
+    width: 70px;
 }
+
+
 
 .button{
     font-size: 15px;
@@ -20,22 +38,28 @@ header{
     width: 150px;
     border-radius: 10px;
     border: none;
-}
-
-.button.login{
     background-color: #E64A47;
 
-    
-} 
-
+}
 .button.signup{
     background-color: white;
 }
 
-.button.check{
-    background-color: #E64A47;
+.content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 700px;
+  
 }
 
+.content .text {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
 
-
+.word-img img{
+    width: 300px;
+}
 
