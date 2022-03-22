@@ -21,6 +21,7 @@ body {
     gap: 30px;
     align-items: center;
     background-color: #9FC131;
+    border-radius: 20px;
 }
 
 .content {
@@ -64,4 +65,15 @@ body {
 }
 .circle.green{
     background-color: green;
+}
+button{
+    background:#E64A47 ;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    opacity: .7;
+
 }
