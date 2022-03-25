@@ -1,3 +1,10 @@
+
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #042940;
     display: flex;
@@ -5,12 +12,6 @@ body{
     align-items: center;
     height: 100vh;
 }
-
-*{
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-
 form{
    
     width: 400px;
