@@ -5,23 +5,23 @@ const checkBttn = document.getElementById("check");
 let filling;
 
 
-for(const filling of fillings){
-    filling.addEventListener('dragstart', dragStart);
-    filling.addEventListener('dragend',dragEnd);
+for (const filling of fillings) {
+    filling.addEventListener("dragstart", dragStart);
+    filling.addEventListener("dragend", dragEnd);
 }
 
-for(const empty of empties){
-    empty.addEventListener('dragover',dragOver);
-    empty.addEventListener('dragenter',dragEnter);
-    empty.addEventListener('dragleave',dragLeave);
-    empty.addEventListener('drop',dragDrop);
+for (const empty of empties) {
+    empty.addEventListener("dragover", dragOver);
+    empty.addEventListener("dragenter", dragEnter);
+    empty.addEventListener("dragleave", dragLeave);
+    empty.addEventListener("drop", dragDrop);
 }
 
 checkBttn.addEventListener("click", function() {
     // For para iterar por sobre los primeros 3 empties.
-    for (let index = 0; index < 3; index++) {
+    for (let i = 0; i < 3; i++) {
         // Se obtiene el empty de cada iteración
-        const empty = empties[index];
+        const empty = empties[i];
         let isEmpty = empty.children == 0;
         if (!isEmpty) {
             const filling = empty.children[0];
@@ -41,10 +41,11 @@ checkBttn.addEventListener("click", function() {
 })
 
 
-function dragStart(){
+function dragStart(e){
     filling = this;
-    this.className += ' hold';
-    setTimeout(() => this.className = 'invisible',0);
+    setTimeout(() => {
+        this.className = "invisible";
+    }, 0);
 }
 
 function dragEnd(){
@@ -52,25 +53,20 @@ function dragEnd(){
 }
 
 function dragOver(e){
-    console.log("over");
     e.preventDefault();
- 
 }
 
 function dragEnter(e){
-    console.log("enter");
-    this.className += ' hovered';
+    this.className += ' hovered'; // TO-DO. Añadir css para esto.
 }
 
 function dragLeave(){
-    console.log("leave");
     this.className = 'empty';
-    
 }
 
 function dragDrop(){
     this.className = 'empty';
-    let isEmpty = this.children.length == 0;
+    let isEmpty = this.children.length == 0; // Verifica que el empty este vacio.
     if (isEmpty) {
         this.append(filling);
     }
