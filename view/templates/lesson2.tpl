@@ -7,10 +7,9 @@
     <title>Lesson 2</title>
     <link rel="stylesheet" href="css/lesson2.css">
     <link rel="stylesheet" href="css/popup.css">
-    
-
 </head>
 <body>
+    <div class="header"> 
         <div class="title">
             <h1>Memory numbers</h1>
         </div>
@@ -19,7 +18,7 @@
             <div class="info">Failed Attempts: <span id="failed-attempts">0</span></div>
             <input class="button" id="restart" type="button" value="Restart">
         </div>
-    </div>
+    </div>   
     <div class="cards">
         <div class="card" id="card1.1">
             <img class="back-face" src="img/number.jpg" alt="">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-07 22:13:07
+/* Smarty version 4.1.0, created on 2022-04-07 22:41:51
   from 'C:\xampp\htdocs\language_learning_web\view\templates\lesson2.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624f45d3378df0_61412663',
+  'unifunc' => 'content_624f4c8f16dc67_55291130',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1594712ebdaa655db24bb798682547f3e62047ae' => 
     array (
       0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\lesson2.tpl',
-      1 => 1649362378,
+      1 => 1649364108,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624f45d3378df0_61412663 (Smarty_Internal_Template $_smarty_tpl) {
+function content_624f4c8f16dc67_55291130 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,12 +28,11 @@ function content_624f45d3378df0_61412663 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 2</title>
-    <link rel="stylesheet" href="css/lesson2.css">
+    <link rel="stylesheet" href="css/lesson21.css">
     <link rel="stylesheet" href="css/popup.css">
-    
-
 </head>
 <body>
+    <div class="header"> 
         <div class="title">
             <h1>Memory numbers</h1>
         </div>
@@ -43,6 +42,8 @@ function content_624f45d3378df0_61412663 (Smarty_Internal_Template $_smarty_tpl)
             <input class="button" id="restart" type="button" value="Restart">
         </div>
     </div>
+    
+    
     <div class="cards">
         <div class="card" id="card1.1">
             <img class="back-face" src="img/number.jpg" alt="">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-07 21:59:44
+/* Smarty version 4.1.0, created on 2022-04-07 22:30:14
   from 'C:\xampp\htdocs\language_learning_web\view\templates\lessons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624f42b0ebe431_97534600',
+  'unifunc' => 'content_624f49d656f0c4_33517072',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cbabb8701c3997f4fee8787ee569acc26aedc20d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\lessons.tpl',
-      1 => 1649353358,
+      1 => 1649363410,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624f42b0ebe431_97534600 (Smarty_Internal_Template $_smarty_tpl) {
+function content_624f49d656f0c4_33517072 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,14 +60,14 @@ function content_624f42b0ebe431_97534600 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="text">
                     <h2 class="title">Lesson 02: Colors</h2>
                     <h4 class="subtitle">This is lesson 01. Learn the colors.</h4>
-                    <a  href="index.php?action=show_lesson2">Show</a>
+                    <a  href="index.php?action=show_lesson3">Show</a>
                 </div>
             </div>
             <div class="lesson">
                 <div class="text">
-                    <h2 class="title">Lesson 03: Numbers</h2>
+                 <h2 class="title">Lesson 03: Numbers</h2>
                     <h4 class="subtitle">This is lesson 01. Learn the numbers.</h4>
-                    <a class ="button" href="index.php?action=show_lesson3">Show</a>
+                    <a  href="index.php?action=show_lesson2">Show</a>
                 </div>
             </div>
         </div>
