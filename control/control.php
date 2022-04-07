@@ -40,7 +40,7 @@
                     $this->showHomepage();
                     break;
                 default:
-                $this->configSmarty->setDisplay("homepage.tpl");
+                $this->configSmarty->setDisplay("lessons.tpl");
                 break;
 
             }

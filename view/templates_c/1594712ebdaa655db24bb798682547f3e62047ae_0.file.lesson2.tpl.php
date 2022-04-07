@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 4.1.0, created on 2022-04-07 22:13:07
+  from 'C:\xampp\htdocs\language_learning_web\view\templates\lesson2.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.1.0',
+  'unifunc' => 'content_624f45d3378df0_61412663',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '1594712ebdaa655db24bb798682547f3e62047ae' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\lesson2.tpl',
+      1 => 1649362378,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_624f45d3378df0_61412663 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,6 +88,9 @@
         </div>
     </div>
     <div id="overlay"></div>
-    <script src="js/lesson2.js"></script>
+    <?php echo '<script'; ?>
+ src="js/lesson2.js"><?php echo '</script'; ?>
+>
 </body>
-</html>
+</html><?php }
+}
