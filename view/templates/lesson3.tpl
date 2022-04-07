@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/colors.css">
-    <title>Colors</title>
+    <title>Lesson 2: Colors.</title>
 </head>
 <body>
     <form>
@@ -120,6 +120,7 @@
                 </div>
             </div>
             <button type="button">Check</button>
+            <a href="index.php?action=show_lessons"> Return </a>
         </div>
     </form>
 </body>

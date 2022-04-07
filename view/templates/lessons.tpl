@@ -30,19 +30,21 @@
                 <div class="text">
                     <h2 class="title">Lesson 01: Fruits</h2>
                     <h4 class="subtitle">This is lesson 01. Learn the fruits.</h4>
+                    <a href="index.php?action=show_lesson1">Show</a>
                 </div>
             </div>
             <div class="lesson">
                 <div class="text">
-
                     <h2 class="title">Lesson 02: Colors</h2>
                     <h4 class="subtitle">This is lesson 01. Learn the colors.</h4>
+                    <a  href="index.php?action=show_lesson2">Show</a>
                 </div>
             </div>
             <div class="lesson">
                 <div class="text">
                     <h2 class="title">Lesson 03: Numbers</h2>
                     <h4 class="subtitle">This is lesson 01. Learn the numbers.</h4>
+                    <a class ="button" href="index.php?action=show_lesson3">Show</a>
                 </div>
             </div>
         </div>

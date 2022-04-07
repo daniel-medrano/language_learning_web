@@ -17,7 +17,8 @@
         <input type="password" name="txtPassword" placeholder="Password"><br>
 
         <button type="button">Sing in</button>
-
+        <a href="index.php?action=show_homepage"> Return </a>
+   
     </form>
     
 </body>

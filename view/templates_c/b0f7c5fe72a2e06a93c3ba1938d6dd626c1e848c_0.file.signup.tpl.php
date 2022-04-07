@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 4.1.0, created on 2022-04-07 19:02:02
+  from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\signup.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.1.0',
+  'unifunc' => 'content_624f190a9127f1_93843041',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b0f7c5fe72a2e06a93c3ba1938d6dd626c1e848c' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\signup.tpl',
+      1 => 1649350880,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_624f190a9127f1_93843041 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +49,9 @@
         <input type="Confirmpassword" name="txtConfirmassword" placeholder="Confirmpassword"><br>
         <br>
         <button type="button">Sign Up</button>
+        <a href="index.php?action=show_homepage"> Return </a>
     </form>
     
 </body>
-</html>
+</html><?php }
+}

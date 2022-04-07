@@ -13,7 +13,12 @@
             <img src="img/panda.png" alt="">
         </div>
         <div class="buttons">
-            <input type="button" class="button login" value="Log In">
+           
+               
+           <li><a href="index.php?action=open_login">Login</a></li>
+           <li><a href="index.php?action=open_signup">Sign Up</a></li>
+            
+            <input type="button" class="button login" value="Log In" ="index.php?action=open_login">
             <input type="button" class="button signup" value="Sign Up" >
 
         </div>
