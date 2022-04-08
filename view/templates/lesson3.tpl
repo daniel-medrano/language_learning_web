@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
+    <link rel="stylesheet" href="css/lesson_3.css">
     <title>Lesson 2: Colors.</title>
 </head>
 <body>
@@ -119,9 +120,10 @@
                     </select>
                 </div>
             </div>
-            <button type="button">Check</button>
+            <button class="button"  id="check" type="button">Check</button>
             <a href="index.php?action=show_lessons"> Return </a>
         </div>
     </form>
+    <script src="js/lesson3.js"></script>
 </body>
 </html>

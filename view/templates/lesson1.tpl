@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/lesson.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
+    <link rel="stylesheet" href="css/lesson_1.css">
     <title>Lesson 1: </title>
 </head>
 <body>
@@ -27,22 +28,22 @@
         <div class="fillings">
             <div class="empty initial">
                 <div id="apple-2" class="apple filling" draggable="true">
-                    <img src="img/apple.png" alt="" draggable="false">
+                    <img src="img/lesson1/apple.png" alt="" draggable="false">
                 </div>
             </div>
             <div class="empty initial">
                 <div id="pear-2" class="filling" draggable="true">
-                    <img src="img/pear.png" alt="" draggable="false">
+                    <img src="img/lesson1/pear.png" alt="" draggable="false">
                 </div>
             </div>
             <div class="empty initial">
                 <div id="pineapple-2" class="filling" draggable="true">
-                    <img src="img/pineapple.png" alt="" draggable="false">
+                    <img src="img/lesson1/pineapple.png" alt="" draggable="false">
                 </div>
             </div>
         </div>
         <div>
-            <button id="check">Check</button>
+            <button class="button" id="check">Check</button>
             <a href="index.php?action=show_lessons"> Return </a>
 
         </div>

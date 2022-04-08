@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.lessons-container {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    width: 100%;
+    gap: 20px;
+} 
+
+
+.lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9FC131;
+    width: 800px;
+    height: 100px;
+    padding: 50px;
+}     

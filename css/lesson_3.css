@@ -15,12 +15,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-.content, .item{
+
+.content, .item {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    background-color: #9FC131;
     border-radius: 20px;
 }
 
@@ -29,51 +29,83 @@ body {
 
 }
 
-.item{
+.item {
+    padding: 10px;
+    background-color: #9FC131;
     gap: 20px;
 }
-.circles{
+
+.circles {
     width: 490px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.circle{
+
+.circle {
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    border: 3px solid white; 
 }
-.circle.red{
+
+.circle.red {
     background-color: red;
 }
-.circle.yellow{
+
+.circle.yellow {
     background-color: yellow;
-}.circle.blue{   
+}
+
+.circle.blue {   
     background-color: blue;
 }
-.circle.purple{
+
+.circle.purple {
     background-color: purple;
 }
-.circle.orange{
+
+.circle.orange {
     background-color: orange;
 }
-.circle.black{
+
+.circle.black {
     background-color: black;
 }
-.circle.white{
+
+.circle.white {
     background-color: white;
 }
-.circle.green{
+
+.circle.green {
     background-color: green;
 }
-button{
-    background:#E64A47 ;
-    padding: 10px 15px;
-    color: white;
-    border-radius: 5px;
-    border: none;
-}
-button:hover{
-    opacity: .7;
 
+.item.correct {
+    background-color: darkgreen;
+}
+
+.item.incorrect {
+    background-color: darkred;
+}
+
+.button {
+    max-height: 50px;
+    padding: 15px 32px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #2fb5da, rgb(17, 25, 146));
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 1s;
+ }
+
+.button:hover {
+    background-position: right;
 }

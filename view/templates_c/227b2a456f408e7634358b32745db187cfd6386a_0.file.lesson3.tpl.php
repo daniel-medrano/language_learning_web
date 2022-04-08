@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-07 18:46:03
+/* Smarty version 4.1.0, created on 2022-04-08 08:25:52
   from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\lesson3.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624f154b2c7f39_67742969',
+  'unifunc' => 'content_624fd57081c272_80545946',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '227b2a456f408e7634358b32745db187cfd6386a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\lesson3.tpl',
-      1 => 1649349940,
+      1 => 1649399115,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624f154b2c7f39_67742969 (Smarty_Internal_Template $_smarty_tpl) {
+function content_624fd57081c272_80545946 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
+    <link rel="stylesheet" href="css/lesson_3.css">
     <title>Lesson 2: Colors.</title>
 </head>
 <body>
@@ -142,10 +143,13 @@ function content_624f154b2c7f39_67742969 (Smarty_Internal_Template $_smarty_tpl)
                     </select>
                 </div>
             </div>
-            <button type="button">Check</button>
+            <button class="button"  id="check" type="button">Check</button>
             <a href="index.php?action=show_lessons"> Return </a>
         </div>
     </form>
+    <?php echo '<script'; ?>
+ src="js/lesson3.js"><?php echo '</script'; ?>
+>
 </body>
 </html><?php }
 }

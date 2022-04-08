@@ -56,15 +56,13 @@ body {
 .incorrect {
     border: 5px solid darkred;
 }
-
+ 
 .invisible {
     display: none;
-} 
+}
 
 .filling img {
-
     width: 148px;
-
 }
 
 .empties, .fillings {
@@ -72,7 +70,23 @@ body {
     gap: 20px;
 }
 
-.pineapple {
-    background-image: url("../img/pineapple.png");
-    z-index: 10;
+.button {
+    max-height: 50px;
+    padding: 15px 32px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #2fb5da, rgb(17, 25, 146));
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 1s;
+ }
+
+.button:hover {
+    background-position: right;
 }

@@ -3,20 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
     background-color:#042940;
 }
+
 .title{
     color: white;
 }
+
 .options{
     color: white;
 }
+
 head{
     align-items: center;
 }
+
 .header {
     text-align: center;
     display: flex;
@@ -27,6 +32,7 @@ head{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
 }
+
 .cards {
     width: 800px;
     height: 600px;
@@ -47,12 +53,15 @@ head{
     box-shadow: 1px 1px 1px black;
     border-radius: 10px;
 }
+
 .card:active {
     transform: scale(0.95);
 }
+
 .card.flipped {
     transform: rotateY(180deg);
 }
+
 .front-face, .back-face {
     width: 100%;
     height: 100%;
@@ -62,32 +71,46 @@ head{
     background-color:#9FC131;
     backface-visibility: hidden;
 }
+
 .front-face {
     transform: rotateY(180deg);
 }
+
 .options {
     display: inherit;
     justify-content: center;
     gap: 1em;
 }
-.button {
-    font: inherit;
-    font-weight: bold;
-    height: 2em;
-    width: 10em;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 1px black;
-    background-color: white;
-    transform: scale(1);
-    transition: box-shadow 0.2s, transform 0.2s;
+
+.return {
+    display: inherit;
+    justify-content: center;
+    gap: 1em;
 }
-.button:active {
-    transform: scale(0.97);
-    box-shadow: 0px 0px 0px 0px black;
-}
+
 .info {
     display: flex;
     align-items: center;
     font-weight: bold;   
+}
+
+.button {
+    max-height: 50px;
+    padding: 15px 32px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #2fb5da, rgb(17, 25, 146));
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 1s;
+ }
+
+.button:hover {
+    background-position: right;
 }

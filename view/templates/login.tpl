@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prueba1.2</title>
-    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
+    <link rel="stylesheet" href="css/signinup.css" type="text/css">
 </head>
 <body>
-    <form>
-        <h2>SIGN IN</h2>
-        <label>Username</label>
-        <input type="text" name="txtUsername" placeholder="Username"><br>
-
-        <label>Password</label>
-        <input type="password" name="txtPassword" placeholder="Password"><br>
-
-        <button type="button">Sing in</button>
-        <a href="index.php?action=show_homepage"> Return </a>
-   
-    </form>
-    
+    <form action="index.php" method="post">
+        <div class="signin-box">
+            <input type="hidden" name="action" value="login_submission">
+            <h2 class="title">SIGN IN</h2>          
+        
+            <div class="input-box">
+                <label>Username</label>
+                <input class="text-box" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <label>Password</label>
+                <input class="text-box" type="password" name="password" placeholder="Password">
+            </div>
+            <input class="button" type="submit" value="Submit">
+            <a href="index.php?action=show_home">Return</a>
+        </div>  
+    </form>    
 </body>
 </html>

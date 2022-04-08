@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-07 18:46:34
+/* Smarty version 4.1.0, created on 2022-04-08 08:25:41
   from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\lesson1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624f156a3f1c54_02299683',
+  'unifunc' => 'content_624fd565880c98_57596560',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd319f7e46a0347c18879a9b408c7925c800dbd02' => 
     array (
       0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\lesson1.tpl',
-      1 => 1649349927,
+      1 => 1649399104,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624f156a3f1c54_02299683 (Smarty_Internal_Template $_smarty_tpl) {
+function content_624fd565880c98_57596560 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/lesson.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
+    <link rel="stylesheet" href="css/lesson_1.css">
     <title>Lesson 1: </title>
 </head>
 <body>
@@ -50,22 +51,22 @@ function content_624f156a3f1c54_02299683 (Smarty_Internal_Template $_smarty_tpl)
         <div class="fillings">
             <div class="empty initial">
                 <div id="apple-2" class="apple filling" draggable="true">
-                    <img src="img/apple.png" alt="" draggable="false">
+                    <img src="img/lesson1/apple.png" alt="" draggable="false">
                 </div>
             </div>
             <div class="empty initial">
                 <div id="pear-2" class="filling" draggable="true">
-                    <img src="img/pear.png" alt="" draggable="false">
+                    <img src="img/lesson1/pear.png" alt="" draggable="false">
                 </div>
             </div>
             <div class="empty initial">
                 <div id="pineapple-2" class="filling" draggable="true">
-                    <img src="img/pineapple.png" alt="" draggable="false">
+                    <img src="img/lesson1/pineapple.png" alt="" draggable="false">
                 </div>
             </div>
         </div>
         <div>
-            <button id="check">Check</button>
+            <button class="button" id="check">Check</button>
             <a href="index.php?action=show_lessons"> Return </a>
 
         </div>
