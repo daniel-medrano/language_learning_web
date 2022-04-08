@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-08 07:43:39
-  from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\signup.tpl' */
+/* Smarty version 4.1.0, created on 2022-04-08 23:19:09
+  from 'C:\xampp\htdocs\language_learning_web\view\templates\signup.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624fcb8b6971f1_40849108',
+  'unifunc' => 'content_6250a6cd5507c5_92084859',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'b0f7c5fe72a2e06a93c3ba1938d6dd626c1e848c' => 
+    'edcb630cda7ba52d78d78874615de8925adf8d4c' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\signup.tpl',
-      1 => 1649396565,
+      0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\signup.tpl',
+      1 => 1649450609,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624fcb8b6971f1_40849108 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6250a6cd5507c5_92084859 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +28,7 @@ function content_624fcb8b6971f1_40849108 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prueba1.2</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
     <link rel="stylesheet" href="css/signinup.css" type="text/css">
 </head>
 <body>

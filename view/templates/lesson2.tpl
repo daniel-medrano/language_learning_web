@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 2</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
-    <link rel="stylesheet" href="css/lesson_2.css">
+    <link rel="stylesheet" href="css/lesson2.css">
     <link rel="stylesheet" href="css/popup.css">
 </head>
 <body>
     <div class="header"> 
-        <div class="title">
-            <h1>Memory numbers</h1>
-        </div>
+        <h2 class="title">Memory numbers</h2>
         <div class="options">
-            <div class="info">Attempts: <span id="attempts">0</span></div>
-            <div class="info">Failed Attempts: <span id="failed-attempts">0</span></div>
+            <div class="info">Attempts: <span class="stat" id="attempts">0</span></div>
+            <div class="info">Failed Attempts: <span class="stat" id="failed-attempts">0</span></div>
             <input class="button" id="restart" type="button" value="Restart">
+            <a  class="button" href="index.php?action=show_lessons">Return</a>
         </div>
     </div>   
     <div class="cards">
@@ -54,9 +53,6 @@
             <img class="back-face" src="img/lesson2/number.jpg" alt="">
             <img class="front-face" src="img/lesson2/4.png" alt="">
         </div>       
-    </div>
-    <div class="return">
-        <a href="index.php?action=show_lessons"> Return </a>
     </div>
     <div class="popup" id="popup">
         <div class="popup-header">

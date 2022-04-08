@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-08 08:12:31
-  from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\login.tpl' */
+/* Smarty version 4.1.0, created on 2022-04-08 23:19:14
+  from 'C:\xampp\htdocs\language_learning_web\view\templates\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624fd24f694658_59880801',
+  'unifunc' => 'content_6250a6d2903b87_02597112',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'ca0f1902e822cf61a5b02e0d1b50a9891e361b3f' => 
+    'f2299ab38848c4322c89751ef3acd4da6874a45f' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\login.tpl',
-      1 => 1649398346,
+      0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\login.tpl',
+      1 => 1649450609,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624fd24f694658_59880801 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6250a6d2903b87_02597112 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>

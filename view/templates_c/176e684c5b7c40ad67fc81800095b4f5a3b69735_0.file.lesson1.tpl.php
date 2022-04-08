@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-08 08:25:41
-  from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\lesson1.tpl' */
+/* Smarty version 4.1.0, created on 2022-04-08 23:19:23
+  from 'C:\xampp\htdocs\language_learning_web\view\templates\lesson1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624fd565880c98_57596560',
+  'unifunc' => 'content_6250a6db3c7e76_35072583',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'd319f7e46a0347c18879a9b408c7925c800dbd02' => 
+    '176e684c5b7c40ad67fc81800095b4f5a3b69735' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\lesson1.tpl',
-      1 => 1649399104,
+      0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\lesson1.tpl',
+      1 => 1649452384,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_624fd565880c98_57596560 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6250a6db3c7e76_35072583 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,12 +28,12 @@ function content_624fd565880c98_57596560 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
-    <link rel="stylesheet" href="css/lesson_1.css">
+    <link rel="stylesheet" href="css/lesson1.css">
     <title>Lesson 1: </title>
 </head>
 <body>
     <div class="content">
-        <h2>Drag and drop the fruits in the right box.</h2>
+        <h2 class="title">Drag and drop the fruits in the right box</h2>
         <div class="empties">
             <div class="fruit">
                 <h3>Apple</h3>
@@ -65,9 +65,9 @@ function content_624fd565880c98_57596560 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
         </div>
-        <div>
+        <div class="buttons">
             <button class="button" id="check">Check</button>
-            <a href="index.php?action=show_lessons"> Return </a>
+            <a class="button" href="index.php?action=show_lessons"> Return </a>
 
         </div>
     </div>

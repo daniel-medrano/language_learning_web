@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
-    <link rel="stylesheet" href="css/lesson_1.css">
+    <link rel="stylesheet" href="css/lesson1.css">
     <title>Lesson 1: </title>
 </head>
 <body>
     <div class="content">
-        <h2>Drag and drop the fruits in the right box.</h2>
+        <h2 class="title">Drag and drop the fruits in the right box</h2>
         <div class="empties">
             <div class="fruit">
                 <h3>Apple</h3>
@@ -42,9 +42,9 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="buttons">
             <button class="button" id="check">Check</button>
-            <a href="index.php?action=show_lessons"> Return </a>
+            <a class="button" href="index.php?action=show_lessons"> Return </a>
 
         </div>
     </div>

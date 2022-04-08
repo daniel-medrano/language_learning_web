@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/panda.png">
-    <link rel="stylesheet" href="css/s.css">
-    <link rel="stylesheet" href="css/lessonsall.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lessons.css">
 
     <title>Pandas-Login</title>
 </head>

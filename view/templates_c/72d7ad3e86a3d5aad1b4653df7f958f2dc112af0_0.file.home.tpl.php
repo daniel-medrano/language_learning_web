@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-04-08 08:11:21
-  from 'C:\xampp\htdocs\progra3\proyecto2\language_learning_web\view\templates\home.tpl' */
+/* Smarty version 4.1.0, created on 2022-04-08 23:19:04
+  from 'C:\xampp\htdocs\language_learning_web\view\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_624fd209bdc1c2_52772703',
+  'unifunc' => 'content_6250a6c80606e5_92112685',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '1c11e73bb2151793cf470cd2216f8fc10c4f28dc' => 
+    '72d7ad3e86a3d5aad1b4653df7f958f2dc112af0' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\progra3\\proyecto2\\language_learning_web\\view\\templates\\home.tpl',
-      1 => 1649398120,
+      0 => 'C:\\xampp\\htdocs\\language_learning_web\\view\\templates\\home.tpl',
+      1 => 1649450609,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:header.tpl' => 1,
   ),
 ),false)) {
-function content_624fd209bdc1c2_52772703 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6250a6c80606e5_92112685 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
     <div class="main-content">
