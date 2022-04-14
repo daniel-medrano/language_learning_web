@@ -11,6 +11,7 @@
     background-color: white;
     width: 500px;
     max-width: 80%;
+    color: black;
 }
 .popup.active {
     transform: translate(-50%, -50%) scale(1);
